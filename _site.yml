@@ -1,0 +1,22 @@
+name: "thibautlapeyre_website"
+title: "Thibaut Lapeure"
+theme: TL_website.css
+favicon: images/favicon.ico
+description: |
+  Baptiste Roux
+output_dir: "docs"
+site: distill::distill_website
+navbar:
+  # logo: "one_up.png"
+  right:
+    - text: "Home"
+      href: index.html
+    - text: "Research"
+      href: research.html
+    - text: "Teaching"
+      href: teaching.html
+    - text: "CV"
+      href: "cv/CV_EN.pdf"
+  # source_url: https://github.com/tiblapeyre/thibaut_lapeyre_website
+  search: false
+output: distill::distill_article
