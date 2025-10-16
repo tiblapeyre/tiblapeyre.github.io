@@ -3,7 +3,7 @@ title: "Thibaut Lapeyre"
 theme: TL_website.css
 favicon: images/favicon.ico
 description: |
- Thibaut
+ Thibaut Lapeyre
 output_dir: "docs"
 site: distill::distill_website
 navbar:
@@ -13,8 +13,6 @@ navbar:
       href: index.html
     - text: "Research"
       href: research.html
-    - text: "Teaching"
-      href: teaching.html
     - text: "CV"
       href: "cv/CV_EN.pdf"
   # source_url: https://github.com/tiblapeyre/thibaut_lapeyre_website
