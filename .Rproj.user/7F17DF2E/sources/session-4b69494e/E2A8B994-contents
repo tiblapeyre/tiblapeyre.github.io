@@ -8,7 +8,7 @@ links:
   - label: '`r fontawesome::fa("envelope")` Email'
 url: "mailto:thibautlapeyre@psemail.eu"
 - label: '`r fontawesome::fa("github")` GitHub'
-url: "https://github.com/tlapeyre"
+url: "https://github.com/tiblapeyre"
 output:
   postcards::trestles
 ---

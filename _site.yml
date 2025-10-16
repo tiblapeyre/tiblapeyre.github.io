@@ -1,9 +1,9 @@
 name: "thibautlapeyre_website"
-title: "Thibaut Lapeure"
+title: "Thibaut Lapeyre"
 theme: TL_website.css
 favicon: images/favicon.ico
 description: |
-  Baptiste Roux
+ Thibaut
 output_dir: "docs"
 site: distill::distill_website
 navbar:
@@ -20,3 +20,4 @@ navbar:
   # source_url: https://github.com/tiblapeyre/thibaut_lapeyre_website
   search: false
 output: distill::distill_article
+
