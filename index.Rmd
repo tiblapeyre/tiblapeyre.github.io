@@ -1,18 +1,18 @@
 ---
-  title: "Thibaut Lapeyre"
-image: "images/photo thibaut lapeyre.jpg"
-favicon: images/favicon.ico
-angle: 130
+title: "Thibaut Lapeyre"
 site: distill::distill_website
+image: "images/photo thibaut lapeyre.jpg"   # quoted because of the space
+favicon: "images/favicon.ico"
+angle: 130
 links:
   - label: '`r fontawesome::fa("envelope")` Email'
-url: "mailto:thibautlapeyre@psemail.eu"
-- label: '`r fontawesome::fa("github")` GitHub'
-url: "https://github.com/tiblapeyre"
+    url: "mailto:thibautlapeyre@psemail.eu"
+  - label: '`r fontawesome::fa("github")` GitHub'
+    url: "https://github.com/tiblapeyre"
 output:
-  postcards::trestles
+  distill::distill_article
 ---
-  
+
   <style>
   /* Increase profile picture size */
   img {
@@ -42,7 +42,7 @@ body::before {
 
 </style>
   
-  Ph.D. Candidate at the Paris School of Economics working at the intersection of Transportation Economics and Experimental Economics under the supervision of Carine Staropoli (Paris School of Economics and University of Rouen Normandie) and Philippe Gagnepain (Paris School of Economics and Paris 1 Panthéon-Sorbonne) for the [New Deal Urbain Research Chair] (https://www.parisschoolofeconomics.eu/recherche/initiatives-recherche/chaires-de-recherche/new-deal-urbain/) and [Sustainable Long-Distance Mobility Chair
-](https://www.parisschoolofeconomics.eu/en/research/research-initiatives/research-chairs/sustainable-long-distance-mobility-chair/). More precisely, I am working on solutions to induce changes in transportation habits towards more sustainable road modal options, using lab experiments.
+  Ph.D. Candidate at the Paris School of Economics working at the intersection of Transportation Economics and Experimental Economics under the supervision of Carine Staropoli (Paris School of Economics and University of Rouen Normandie) and Philippe Gagnepain (Paris School of Economics and Paris 1 Panthéon-Sorbonne) ... for the [New Deal Urbain Research Chair](https://www.parisschoolofeconomics.eu/recherche/initiatives-recherche/chaires-de-recherche/new-deal-urbain/) and [Sustainable Long-Distance Mobility Chair](https://www.parisschoolofeconomics.eu/en/research/research-initiatives/research-chairs/sustainable-long-distance-mobility-chair/).
+More precisely, I am working on solutions to induce changes in transportation habits towards more sustainable road modal options, using lab experiments.
 
 

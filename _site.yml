@@ -1,13 +1,13 @@
 name: "thibautlapeyre_website"
 title: "Thibaut Lapeyre"
 theme: TL_website.css
-favicon: images/favicon.ico
+#favicon: images/favicon.ico
 description: |
  Thibaut Lapeyre
 output_dir: "docs"
 site: distill::distill_website
 navbar:
-  # logo: "one_up.png"
+  # logo: " .png""
   right:
     - text: "Home"
       href: index.html
