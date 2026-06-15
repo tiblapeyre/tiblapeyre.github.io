@@ -44,9 +44,29 @@ This paper investigates the effectiveness and acceptability of urban tolls as a 
 
 
 
-### Come Pick Me Up: Understanding Non-Monetary Motives in Carpool Drivers 
+### Come Pick-Me Up: Understanding Non-Monetary Motives in Carpool Drivers
+
+<button class="button_link" role="button" onclick="hide_buttons('abstract_carpool')">Abstract</button>
+
+<div id="abstract_carpool" style="display:none;">
+
+How do carpool drivers choose their passengers? This paper investigates both monetary and non-monetary motives on the supply side of peer-to-peer markets. I focus on BlaBlaCar, the world’s largest carpooling platform, where drivers post trips with empty seats and passengers send booking requests. Using detailed observational data, I first document a key platform friction and estimate reduced-form acceptance models. I leverage a specific feature of the platform that allows drivers to make short detours from their originally planned route in order to pick up additional passengers. The evidence shows that drivers are less likely to accept requests that are more costly in terms of detour, timing, or seat scarcity. This suggests that low acceptance is not only a matter of price, but also reflects the private cost of adapting a trip and the strategic value of keeping a seat available. I then develop a dynamic choice model of driver behavior in which drivers may receive several booking requests before departure. The key challenge lies in the imperfectly observed opportunity cost of accepting a request. The model will allow me to estimate the opportunity cost of acceptance and evaluate counterfactual platform policies, including targeted Boost proposals and pricing rules. The project sheds light on how suppliers face hidden, dynamic, and non-monetary costs in peer-to-peer markets.
+
+</div> <br />
+
+### How Much as Changed? The Impact of the Pandemic on Long-Distance Mobility
 
 
+
+
+
+<br />
+
+### More Trains for Whom? Experimental Evidence on Perceived Rail Frequency Improvements
+with <em> SNCF Réseau <em>
+
+
+<br />
 
 
 
