@@ -1,0 +1,26 @@
+---
+title: "Teaching"
+---
+
+```{r setup, include=FALSE}
+library(knitr)
+opts_chunk$set(
+               cache.path = "cache/",
+               cache = FALSE,
+               echo = FALSE, #set to false to hide code
+               message = FALSE,
+               warning = FALSE,
+               out.width = "100%",
+               dpi = 200,
+               fig.align = "center")  
+```
+
+<div style="text-align: center;">
+  <ul style="display: inline-block; text-align: left; margin: 0; padding-left: 1.2em;">
+    <li>Social Protection – BSc Economics (<em>in French</em>)</li>
+    Paris 1 Panthéon Sorbonne (<em>2025-26</em>)
+  </ul>
+</div>
+
+
+

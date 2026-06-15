@@ -28,24 +28,33 @@ function hide_buttons(abstract) {
 
 ## Work in Progress
 
-### Fairness, Pricing, and Modal Shift: Behavioral Perspectives on Urban Toll Acceptability
+### An Experimental Perspective on Urban Toll Acceptability
 
 with [Philippe Gagnepain](https://www.parisschoolofeconomics.eu/personnes/philippe-gagnepain/) and [Carine Staropoli](https://www.parisschoolofeconomics.eu/personnes/carine-staropoli/) 
+
+<em> [Draft available upon request] <em> 
 
 <button class="button_link" role="button" onclick="hide_buttons('abstract_toll')">Abstract</button>
 <div id="abstract_toll" style="display:none;">
 
-
-Reducing solo driving to lower greenhouse emissions and the associated negative externalities is essential. One potential solution is to increase the cost of car use through urban tolls, which have already been implemented in specific areas of cities like London and Stockholm. In France, these infrastructures are less common, one of the issues being the low public acceptability of these projects, even though the theoretical conditions of effectiveness are known. Thus, the necessity to carry out an experiment to test the predictions and investigate the behavioral responses to the implementation of a toll prevails. In this paper, we propose an original design to test the impact of tolls on modal shift and congestion in a specifically designed network. Participants were randomly categorized into two types of travelers, accounting for various access to public transportation. The preliminary results indicate that the implementation led to a decrease in car usage and that participants generally followed the Nash equilibrium predictions.  Additionally, acceptability was evaluated through voting and found to be greater when the toll costs were unequal between the two types in the network.
+This paper investigates the effectiveness and acceptability of urban tolls as a policy instrument in transport economics to reduce private car use. It focuses on everyday commuting decisions under time constraints and heterogeneous spatial access to public transport infrastructure. We consider an experimental approach to test how commuters adjust their modal choices after road pricing is introduced and when congestion is endogenously formed. We also assess the social acceptability of tolls and the role of distributive fairness in shaping support. We compare alternative pricing structures to explore how differentiated charges affect both modal shift and perceived equity. Our results show that congestion pricing reduces car use and encourages substitution toward public transport when the infrastructure is available. However, public support remains limited among individuals who perceive the scheme as unfair. Our findings thus underscore the importance of integrating efficiency and equity considerations when designing politically feasible urban transport policies. 
 </div> 
 
 <br />
+
+
+
+### Come Pick Me Up: Understanding Non-Monetary Motives in Carpool Drivers 
+
+
+
+
 
 ## Other Project
 
 ### Truth hurts: the dynamics of motivated mislearning  
 
-with Lidia Esposito and [Luca Cocco](https://sites.google.com/view/lucacocco/overview?authuser=0)
+with [Luca Cocco](https://sites.google.com/view/lucacocco/overview?authuser=0) and Lidia Esposito  
 
 <br />
 

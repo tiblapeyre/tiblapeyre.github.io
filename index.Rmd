@@ -1,7 +1,7 @@
 ---
 title: "Thibaut Lapeyre"
 site: distill::distill_website
-image: "images/photo_thibaut_lapeyre.jpg"
+image: "images/photo.jpg"
 #favicon: "images/favicon.ico"
 angle: 130
 links:
@@ -12,33 +12,145 @@ links:
 output:
   distill::distill_article
 resource_files:
-  - "images/photo thibaut lapeyre.jpg"
+  - "images/photo.jpg"
   - "images/contis.jpg"
 ---
 
 <style>
-/* target only the postcard/profile image if you want, but OK to keep as is */
-img { width: 300px !important; height: auto !important; }
+body {
+  font-size: 1.1rem;
+  position: relative;
+}
 
-body { font-size: 1.1rem; }
-
-/* background image on top section */
 body::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 40vh;
-  background-image: url("images/contis.jpg");  /* path relative to the HTML */
-  background-size: cover;
-  background-position: center 40%;  /* move crop window up slightly */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30vh;
+  background-image: url("images/contis.jpg");
+  background-size: 100% auto;
+  background-position: center 35%;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
+}
+
+.profile-block {
+  display: grid;
+  grid-template-columns: 340px 650px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem; /* reduce this */
+  margin: 13vh auto 2rem auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  transform: translateX(-70px);
+}
+
+.profile-photo {
+  width: 200px !important;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 10px;
+  display: block;
+}
+
+.profile-text {
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+
+  border-left: 1px solid #ddd;
+  padding-left: 1.2rem; /* reduce this too */
+}
+
+.contact-block {
+  margin-top: 1.4rem;
+  text-align: left;
+}
+
+.page-footer {
+  max-width: 700px;
+  margin: 14vh auto 0 auto;
+  padding: 0.8rem 1rem 0 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.75rem;
+  color: #777;
+  text-align: left;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
+  body::before {
+    height: 28vh;
+  }
+
+  .profile-block {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 5vh;
+    transform: none;
+  }
+
+  .profile-photo {
+    width: 300px !important;
+    height: 230px !important;
+    margin: 0 auto;
+  }
+
+  .profile-text {
+    text-align: left;
+  }
+
+  .page-footer {
+    margin-top: 5vh;
+    font-size: 0.75rem;
+  }
 }
 </style>
 
-  
-  Ph.D. Candidate at the Paris School of Economics working at the intersection of Transportation Economics and Experimental Economics under the supervision of Carine Staropoli (Paris School of Economics and University of Rouen Normandie) and Philippe Gagnepain (Paris School of Economics and Paris 1 Panthéon-Sorbonne) ... for the [New Deal Urbain Research Chair](https://www.parisschoolofeconomics.eu/recherche/initiatives-recherche/chaires-de-recherche/new-deal-urbain/) and [Sustainable Long-Distance Mobility Chair](https://www.parisschoolofeconomics.eu/en/research/research-initiatives/research-chairs/sustainable-long-distance-mobility-chair/).
-More precisely, I am working on solutions to induce changes in transportation habits towards more sustainable road modal options, using lab experiments.
+<!-- Main profile block -->
+<div class="profile-block">
+<img src="images/photo.jpg" class="profile-photo" alt="Portrait of Thibaut Lapeyre">
 
+<div class="profile-text">
+<p>
+Welcome to my personal website! :)
 
+I am a Ph.D. Candidate at the Paris School of Economics working at the intersection of
+Transportation Economics and Behavioral Economics, under the supervision of
+<a href="https://www.parisschoolofeconomics.eu/personnes/philippe-gagnepain/">Philippe Gagnepain</a> and
+<a href="https://www.parisschoolofeconomics.eu/personnes/carine-staropoli/">Carine Staropoli</a>. I'm also a Research Fellow for
+<a href="https://www.parisschoolofeconomics.eu/recherche/initiatives-recherche/chaires-de-recherche/new-deal-urbain/">New Deal Urbain Research Chair</a>
+and
+<a href="https://www.parisschoolofeconomics.eu/en/research/research-initiatives/research-chairs/sustainable-long-distance-mobility-chair/">Sustainable Long-Distance Mobility Chair</a>.
+</p>
+
+<p>
+I am working on solutions to induce changes in transportation habits
+towards more sustainable road modal options (currently congestion pricing and carpooling), using experimental designs.
+</p>
+
+<div class="contact-block">
+Please, feel free to get in touch!<br>
+
+<a href="mailto:thibaut.lapeyre@psemail.eu" class="email-text-link">
+  <span class="email-link">✉</span>
+  <em>thibaut.lapeyre[at]psemail.eu</em>
+</a>
+</div>
+</div>
+
+<!-- Bottom reference / update info -->
+<div class="page-footer">
+<div>
+Photo credit: background image, <em>Plages Landes</em>.
+</div>
+<div>
+Last updated: `r format(Sys.Date(), " %B %Y")`
+</div>
+</div>

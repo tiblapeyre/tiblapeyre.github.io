@@ -20,8 +20,9 @@
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css" data-origin="pandoc">
+html { -webkit-text-size-adjust: 100%; }
 pre > code.sourceCode { white-space: pre; position: relative; }
-pre > code.sourceCode > span { line-height: 1.25; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
 pre > code.sourceCode > span:empty { height: 1.2em; }
 .sourceCode { overflow: visible; }
 code.sourceCode > span { color: inherit; text-decoration: inherit; }
@@ -32,7 +33,7 @@ div.sourceCode { overflow: auto; }
 }
 @media print {
 pre > code.sourceCode { white-space: pre-wrap; }
-pre > code.sourceCode > span { display: inline-block; text-indent: -5em; padding-left: 5em; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
 }
 pre.numberSource code
   { counter-reset: source-line 0; }
@@ -107,7 +108,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
   <!--radix_placeholder_rmarkdown_metadata-->
 
   <script type="text/json" id="radix-rmarkdown-metadata">
-  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","image","angle","links","output","resource_files"]}},"value":[{"type":"character","attributes":{},"value":["Thibaut Lapeyre"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["images/photo_thibaut_lapeyre.jpg"]},{"type":"integer","attributes":{},"value":[130]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["`<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 512 512\" style=\"height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;\"><path d=\"M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z\"/><\/svg>`{=html} Email"]},{"type":"character","attributes":{},"value":["mailto:thibautlapeyre@psemail.eu"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["`<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 496 512\" style=\"height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;\"><path d=\"M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z\"/><\/svg>`{=html} GitHub"]},{"type":"character","attributes":{},"value":["https://github.com/tiblapeyre"]}]}]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["images/photo thibaut lapeyre.jpg","images/contis.jpg"]}]}
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","site","image","angle","links","output","resource_files"]}},"value":[{"type":"character","attributes":{},"value":["Thibaut Lapeyre"]},{"type":"character","attributes":{},"value":["distill::distill_website"]},{"type":"character","attributes":{},"value":["images/photo.jpg"]},{"type":"integer","attributes":{},"value":[130]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["`<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 512 512\" style=\"height:1em;width:1em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;\"><path d=\"M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z\"/><\/svg>`{=html} Email"]},{"type":"character","attributes":{},"value":["mailto:thibautlapeyre@psemail.eu"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["label","url"]}},"value":[{"type":"character","attributes":{},"value":["`<svg aria-hidden=\"true\" role=\"img\" viewBox=\"0 0 496 512\" style=\"height:1em;width:0.97em;vertical-align:-0.125em;margin-left:auto;margin-right:auto;font-size:inherit;fill:currentColor;overflow:visible;position:relative;\"><path d=\"M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z\"/><\/svg>`{=html} GitHub"]},{"type":"character","attributes":{},"value":["https://github.com/tiblapeyre"]}]}]},{"type":"character","attributes":{},"value":["distill::distill_article"]},{"type":"character","attributes":{},"value":["images/photo.jpg","images/contis.jpg"]}]}
   </script>
   <!--/radix_placeholder_rmarkdown_metadata-->
   <!--radix_placeholder_navigation_in_header-->
@@ -2214,7 +2215,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
     color: var(--hover-color, white);
   }</style>
   <!--/radix_placeholder_distill-->
-  <script src="site_libs/header-attrs-2.29/header-attrs.js"></script>
+  <script src="site_libs/header-attrs-2.30/header-attrs.js"></script>
   <script src="site_libs/popper-2.6.0/popper.min.js"></script>
   <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
   <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
@@ -2247,6 +2248,7 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 <div class="nav-right">
 <a href="index.html">Home</a>
 <a href="research.html">Research</a>
+<a href="teaching.html">Teaching</a>
 <a href="cv/CV_EN.pdf">CV</a>
 <a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
 </div>
@@ -2267,28 +2269,138 @@ code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
 
 <div class="d-article">
 <style>
-/* target only the postcard/profile image if you want, but OK to keep as is */
-img { width: 300px !important; height: auto !important; }
+body {
+  font-size: 1.1rem;
+  position: relative;
+}
 
-body { font-size: 1.1rem; }
-
-/* background image on top section */
 body::before {
   content: "";
   position: absolute;
-  top: 0; left: 0; right: 0;
-  height: 40vh;
-  background-image: url("images/contis.jpg");  /* path relative to the HTML */
-  background-size: cover;
-  background-position: center 40%;  /* move crop window up slightly */
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 30vh;
+  background-image: url("images/contis.jpg");
+  background-size: 100% auto;
+  background-position: center 35%;
   background-repeat: no-repeat;
-  opacity: 0.5;
+  opacity: 0.6;
   z-index: -1;
 }
+
+.profile-block {
+  display: grid;
+  grid-template-columns: 340px 650px;
+  align-items: center;
+  justify-content: center;
+  gap: 0.7rem; /* reduce this */
+  margin: 13vh auto 2rem auto;
+  padding: 0 1rem;
+  max-width: 1100px;
+  transform: translateX(-70px);
+}
+
+.profile-photo {
+  width: 200px !important;
+  height: 300px !important;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 10px;
+  display: block;
+}
+
+.profile-text {
+  line-height: 1.6;
+  text-align: justify;
+  text-justify: inter-word;
+  hyphens: auto;
+  overflow-wrap: break-word;
+
+  border-left: 1px solid #ddd;
+  padding-left: 1.2rem; /* reduce this too */
+}
+
+.contact-block {
+  margin-top: 1.4rem;
+  text-align: left;
+}
+
+.page-footer {
+  max-width: 700px;
+  margin: 14vh auto 0 auto;
+  padding: 0.8rem 1rem 0 1rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.75rem;
+  color: #777;
+  text-align: left;
+  line-height: 1.5;
+}
+@media (max-width: 760px) {
+  body::before {
+    height: 28vh;
+  }
+
+  .profile-block {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    margin-top: 5vh;
+    transform: none;
+  }
+
+  .profile-photo {
+    width: 300px !important;
+    height: 230px !important;
+    margin: 0 auto;
+  }
+
+  .profile-text {
+    text-align: left;
+  }
+
+  .page-footer {
+    margin-top: 5vh;
+    font-size: 0.75rem;
+  }
+}
 </style>
-<p>Ph.D. Candidate at the Paris School of Economics working at the intersection of Transportation Economics and Experimental Economics under the supervision of Carine Staropoli (Paris School of Economics and University of Rouen Normandie) and Philippe Gagnepain (Paris School of Economics and Paris 1 Panthéon-Sorbonne) … for the <a href="https://www.parisschoolofeconomics.eu/recherche/initiatives-recherche/chaires-de-recherche/new-deal-urbain/">New Deal Urbain Research Chair</a> and <a href="https://www.parisschoolofeconomics.eu/en/research/research-initiatives/research-chairs/sustainable-long-distance-mobility-chair/">Sustainable Long-Distance Mobility Chair</a>.
-More precisely, I am working on solutions to induce changes in transportation habits towards more sustainable road modal options, using lab experiments.</p>
+<!-- Main profile block -->
+<div class="profile-block">
+<p><img src="images/photo.jpg" class="profile-photo" alt="Portrait of Thibaut Lapeyre"></p>
+<div class="profile-text">
+<p>
+<p>Welcome to my personal website! :)</p>
+I am a Ph.D. Candidate at the Paris School of Economics working at the intersection of
+Transportation Economics and Behavioral Economics, under the supervision of
+<a href="https://www.parisschoolofeconomics.eu/personnes/philippe-gagnepain/">Philippe Gagnepain</a> and
+<a href="https://www.parisschoolofeconomics.eu/personnes/carine-staropoli/">Carine Staropoli</a>. I’m also a Research Fellow for
+<a href="https://www.parisschoolofeconomics.eu/recherche/initiatives-recherche/chaires-de-recherche/new-deal-urbain/">New Deal Urbain Research Chair</a>
+and
+<a href="https://www.parisschoolofeconomics.eu/en/research/research-initiatives/research-chairs/sustainable-long-distance-mobility-chair/">Sustainable Long-Distance Mobility Chair</a>.
+</p>
+<p>
+I am working on solutions to induce changes in transportation habits
+towards more sustainable road modal options (currently congestion pricing and carpooling), using experimental designs.
+</p>
+<div class="contact-block">
+<p>Please, feel free to get in touch!<br></p>
+<p><a href="mailto:thibaut.lapeyre@psemail.eu" class="email-text-link">
+<span class="email-link">✉</span>
+<em>thibaut.lapeyre[at]psemail.eu</em>
+</a></p>
+</div>
+</div>
+<!-- Bottom reference / update info -->
+<div class="page-footer">
+<div>
+<p>Photo credit: background image, <em>Plages Landes</em>.</p>
+</div>
+<div>
+<p>Last updated: June 2026</p>
+</div>
+</div>
 <div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+</div>
 <!--radix_placeholder_article_footer-->
 <!--/radix_placeholder_article_footer-->
 </div>
