@@ -3,3 +3,9 @@
 .RData
 .Ruserdata
 .positai
+
+# R workspace / temporary files
+.RData
+.RDataTmp*
+.Rhistory
+.Rproj.user/
