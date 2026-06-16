@@ -44,7 +44,7 @@ This paper investigates the effectiveness and acceptability of urban tolls as a 
 
 
 
-### Come Pick-Me Up: Understanding (Non-)Monetary Motives in Carpool Drivers
+### Come Pick-Me Up: Understanding (Non) Monetary Motives in Carpool Drivers
 
 <button class="button_link" role="button" onclick="hide_buttons('abstract_carpool')">Abstract</button>
 
