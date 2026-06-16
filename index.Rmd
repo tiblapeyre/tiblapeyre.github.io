@@ -155,6 +155,6 @@ Please, feel free to get in touch!<br>
 Photo credit: background image, <em>Plages Landes</em>.
 </div>
 <div>
-Last update: `r format(Sys.Date(), "%B %Y")`
+Last update: `r paste(month.name[as.integer(format(Sys.Date(), "%m"))], format(Sys.Date(), "%Y"))`
 </div>
 </div>
