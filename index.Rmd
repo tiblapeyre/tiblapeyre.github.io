@@ -7,15 +7,19 @@ angle: 130
 links:
   - label: '`r fontawesome::fa("envelope")` Email'
     url: "mailto:thibautlapeyre@psemail.eu"
-  - label: '`r fontawesome::fa("github")` GitHub'
+  - label: '`r fontawesome::fa("github")` GitHub' 
     url: "https://github.com/tiblapeyre"
 output:
   distill::distill_article
 resource_files:
   - "images/photo.jpg"
   - "images/contis.jpg"
+  
 ---
+```{r setup, include=FALSE} Sys.setlocale("LC_TIME", "C")
+```
 
+  
 <style>
 body {
   font-size: 1.1rem;
