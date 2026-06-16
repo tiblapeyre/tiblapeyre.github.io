@@ -151,6 +151,6 @@ Please, feel free to get in touch!<br>
 Photo credit: background image, <em>Plages Landes</em>.
 </div>
 <div>
-Last updated: `r format(Sys.Date(), " %B %Y")`
+Last update: `r format(Sys.Date(), " %B %Y")`
 </div>
 </div>
