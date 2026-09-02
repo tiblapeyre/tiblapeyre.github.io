@@ -17,17 +17,8 @@ opts_chunk$set(
 
 <div style="text-align: center;">
   <ul style="display: inline-block; text-align: left; margin: 0; padding-left: 1.2em;">
-    
-    <li>
-      Competitive Equilibrium and Market Failures – BSc Economics (<em>in French</em>)<br>
-      Paris 1 Panthéon-Sorbonne (<em>2026–27</em>)
-    </li>
-    
-    <li>
-      Social Protection – BSc Economics (<em>in French</em>)<br>
-      Paris 1 Panthéon-Sorbonne (<em>2025–26</em>)
-    </li>
-    
+    <li>Social Protection – BSc Economics (<em>in French</em>)</li>
+    Paris 1 Panthéon Sorbonne (<em>2025-26</em>)
   </ul>
 </div>
 
