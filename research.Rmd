@@ -72,7 +72,7 @@ with <em> SNCF Réseau <em>
 
 ## Other Project
 
-### Truth hurts: the dynamics of motivated mislearning  
+### Truth hurts: the dynamics of motivated mislearning 
 
 with [Luca Cocco](https://sites.google.com/view/lucacocco/overview?authuser=0) and Lidia Esposito  
 
